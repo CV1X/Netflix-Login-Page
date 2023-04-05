@@ -1,0 +1,136 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+body{
+     background-image: url('bg.jpg');
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+     width: 100%;
+}
+
+
+.header img {
+     width: 300px;
+     padding-left: 20px;
+     padding-top: 30px;
+}
+
+.registerBlock{
+     color: white;
+     width: 460px;
+     border-radius: 20px;
+     height: 530px;
+     background-color: rgba(0, 0, 0, 0.746);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+.paddingBlock{
+     width: 80%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+}
+
+::placeholder {
+     color: white;
+}
+
+.inputs input {
+     background-color: #454545;
+     border: none;
+     margin-top: 10px;
+     color: white;
+     padding: 10px;
+     height: 35px;
+     border-radius: 10px;
+}
+
+.inputs {
+     display: flex;
+     flex-direction: column;
+}
+
+.footer{
+     width: 100%;
+     display: flex;
+     height: 44px;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: space-around;
+     background-color: rgba(0, 0, 0, 0.606);
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     padding: 10px;
+}
+
+.footer a {
+     color: #737373;
+     text-decoration: none;
+     cursor:pointer;
+}
+
+.container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.button button {
+     width: 100%;
+     height: 50px;
+     background-color: #E50914;
+     color: white;
+     font-size: 17px;
+     font-weight: 700;
+     user-select: pointer;
+}
+
+.checkboxBlock {
+     display: flex;
+     margin-top: 5px;
+}
+
+.spanaa{
+     padding-left: 150px;
+} 
+
+
+.isNew{
+     color: #737373;
+}
+
+.moreInfo a{
+     text-decoration: none;
+     color: #737373;
+          text-decoration: underline;
+
+}
+
+.signUpNow:hover{
+     text-decoration: underline;
+}
+
+.block2{
+     display: flex;
+     width: 25%;
+     justify-content: space-between;
+}
+
+.block3{
+     width: 25%;
+     flex-direction: row;
+     display: flex;
+     justify-content: space-between;
+}
+
+.footer a:hover{
+     text-decoration: underline;
+}
